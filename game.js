@@ -16,7 +16,7 @@ const player = {
   height: 80,
   img: new Image()
 };
-player.img.src = "https://i.imgur.com/9U8zv3b.png"; // car
+player.img.src = "blue car.png"; // car
 
 const enemies = [];
 function spawnEnemy() {
@@ -27,7 +27,7 @@ function spawnEnemy() {
     height: 80,
     img: new Image()
   };
-  enemy.img.src = "https://i.imgur.com/ts8N8jQ.png";
+  enemy.img.src = "red car.png";
   enemies.push(enemy);
 }
 
